@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DAB</color>
+    <color name="colorAccent">#FF5252</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorGreen">#32CD32</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="border_color">#FF0000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttons_background_color">#FFFF</color>
+    <color name="custom_radio_button_color">#FF03DAC5</color>
+    <color name="custom_text_color">#ffff</color>
+    <color name="semi_transparent">#80000000</color>
+    <color name="transparent">#RRGGBB</color>
+    <color name="dark_blue">#091E3E</color>
+    <color name="light_blue">#06A3DA</color>
+    <color name="corner_color">#06A3DA</color>
+    <color name="light_gray">#F5F5F5</color>
+
+
+</resources>

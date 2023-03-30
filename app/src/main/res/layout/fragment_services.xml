@@ -1,0 +1,144 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/serv"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Each Services is categorized\nfor a much easier search process"
+        android:textColor="@color/dark_blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ViewFlipper
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:flipInterval="2000"
+        android:inAnimation="@anim/slide_in_left"
+        android:outAnimation="@anim/slide_in_right"
+        android:autoStart="true"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="40"
+        app:iss_delay="5"
+        app:iss_error_image="@color/purple_700"
+        app:iss_placeholder="@color/black">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/construction"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/housekeeping"/>
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="@drawable/mechanical" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/wifi" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/electronic" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/electrical" />
+    </ViewFlipper>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/housekeeping"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="360dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/house" />
+
+        <ImageView
+            android:id="@+id/electrical"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="360dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/electric" />
+
+        <ImageView
+            android:id="@+id/electronics"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="483dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/electronics" />
+
+        <ImageView
+            android:id="@+id/mechanic"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="483dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/mechan" />
+
+        <ImageView
+            android:id="@+id/wifi_cctv"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/wifi_cctv" />
+
+        <ImageView
+            android:id="@+id/construction"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="605dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/contruct" />
+
+        <TextView
+            android:id="@+id/text_vi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="217dp"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

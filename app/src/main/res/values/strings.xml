@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">iCleaNix</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="services">Services</string>
+    <string name="accounts">Accounts</string>
+    <string name="about">About</string>
+    <string name="feedback">Feedback</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="icleanix">iCleaNix</string>
+    <string name="i_clean_and_fix">I Clean and Fix</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started!</string>
+    <string name="apply_and_post_services_now">apply and post services now!</string>
+    <string name="the_best_site_for_finding_service_nproviders_and_seekers_in_ormoc_city">The Best Site for Finding Service\nProviders and Seekers in Ormoc City!</string>
+    <string name="reliable">Reliable</string>
+    <string name="job_success">Job Success</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
+    <string name="my_desc">Doing at the sweet spot between aesthetics and elegance to give life to your brand.My opinion belong to nobody but myself.</string>
+    <string name="about_me">About Me</string>
+    <string name="contact">Contact</string>
+    <string name="skills">Skills</string>
+    <string name="ratings">Star Ratings</string>
+    <string name="samplereview">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium bibendum sapien, ut euismod massa. Duis convallis sem sed turpis elementum auctor.</string>
+</resources>
