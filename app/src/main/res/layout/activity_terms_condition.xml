@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title -->
+
+
+    <!-- ScrollView -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms and Condition"
+                android:textColor="@color/dark_blue"
+                android:drawableStart="@drawable/ic_baseline_description_24"
+                android:drawablePadding="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="-30dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_baseline_close_24" />
+
+            <TextView
+
+                style="@style/PrivacyPolicyLabelTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="16dp"
+                android:text="Last Updated: 09/04/2023"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="These terms and conditions govern your use of our mobile application and website (together, the “App”). By accessing or using the App, you agree to be bound by these terms and conditions, as well as any additional guidelines or rules applicable to specific services or features which may be posted from time to time."
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="1. Services"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="The App provides an online platform that connects service seekers and providers in Ormoc City for them to interact online. The services offered on the App include, but are not limited to, the ability to search for service providers, request services, and make payments."
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="2. Limitation and Liability"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="In no event shall we be liable for any indirect, special, incidental, consequential, punitive, or exemplary damages arising out of or in connection with your use of the App, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses."
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="3. Intellectual Property Rights"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="The App and its entire contents, features, and functionality (including but not limited to all information, software, text, displays, images, video, and audio) are owned by us, our licensors, or other providers of such material and are protected by copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws."
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="4. Disclaimer of Warranties"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="The App is provided AS IS and AS AVAILBALE without warranty of any kind, either express or implied. We do not warrant that the App will be uninterrupted or error-free, that defects will be corrected, or that the App or the server that makes it available are free of viruses or other harmful components."
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="5. User Conduct"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="You agree to use the App only for lawful purposes and in accordance with these terms and conditions. You agree not to use the App:\n\u25CF In any way that violates any applicable federal, state, local, or international law or regulation.\n
+\u25CF To impersonate or attempt to impersonate us, our employees, another user, or any other person or entity.\n
+\u25CF To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the App, or which, as determined by us, may harm us or users of the App, or expose them to liability."
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyLabelTextView"
+                android:text="6. Contact Us"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:id="@+id/my_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PrivacyPolicyTextView"
+                android:text="If you have any questions or concerns about our Terms and Conditions, please contact us at privacy@IcleaNix.com."
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

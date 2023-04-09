@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"
+        android:text="Welcome to IcleaNix"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-55dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        style="@style/PrivacyPolicyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1. We take your privacy seriously and want you to know how we use and protect your personal information. When you use our app, we collect your location data and other personal information such as your name, email address, and phone number. We use this information to enable you to share your location with others and to improve our services.\n
+
+2. To protect your privacy, we disassociate your location data from your other personal data 48 hours after you share your location with others. We then use the disassociated location data in aggregate form to improve our services.\n
+
+3. We may share your location information with third parties chosen by you and with third-party technology providers that help power IcleaNix Inc. We will never share your personal information with any third party without your explicit consent.\n
+
+4. By using our app, you agree to our Privacy Policy and our Terms of Use. If you have any questions or concerns about our privacy practices, please contact us at privacy@icleanix.com." />
+
+    <TextView
+        android:id="@+id/DialogPolicyLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="For more information, see the IcleaNix Privacy Policy and Terms of Use" />
+
+    <CheckBox
+        android:id="@+id/checkbox_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="I agree to the Privacy Policy and Terms of Use of IcleaNix." />
+
+
+    <Button
+        android:id="@+id/btn_agree"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="12dp"
+        android:text="I Agree"
+        android:textColor="@color/white" />
+
+</LinearLayout>

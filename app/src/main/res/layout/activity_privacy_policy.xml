@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_close_24" />
+
+        <TextView
+            style="@style/PrivacyPolicyLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="-30dp"
+            android:drawableStart="@drawable/ic_baseline_privacy_tip_24"
+            android:drawablePadding="10dp"
+            android:text="Privacy Policy"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/PrivacyPolicyLabelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="16dp"
+            android:text="Last Updated: 09/04/2023"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="Our app offers an online platform that connects service seekers and providers in Ormoc City for them to interact online. We take your privacy very seriously and have implemented the following policies to ensure that your personal information is protected."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="1. Collection of Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="We collect information from you when you register on our app, fill out a form, or interact with our app in any other way. This information may include your name, email address, phone number, and other contact information."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="2. Use of Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="We use the information we collect from you to improve our app and provide better services to our users. We may also use this information to contact you regarding important updates or changes to our app."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="3. Protection of Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="We take appropriate measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. We regularly review our security procedures to ensure that your information is safe."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="4. Sharing of Information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="We do not share your personal information with third parties except as required by law or as necessary to provide our services. We may share anonymous or aggregated information with third parties for marketing or research purposes."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="5. Use of Cookies"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="Our app may use cookies to enhance your user experience and improve the functionality of our app. Cookies are small files that are stored on your device and are used to track information about your use of our app."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="6. Changes to Privacy Policy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="We reserve the right to modify this privacy policy at any time. Changes and clarifications will take effect immediately upon their posting on our app. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it."
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyLabelTextView"
+            android:text="7. Contact Us"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:id="@+id/my_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/PrivacyPolicyTextView"
+            android:text="If you have any questions or concerns about our privacy policy, please contact us at privacy@IcleaNix.com."
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>
