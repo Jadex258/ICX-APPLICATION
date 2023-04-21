@@ -7,11 +7,12 @@
     <!-- Profile section -->
     <LinearLayout
         android:id="@+id/profile_section"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="391dp"
+        android:layout_height="117dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:background="@drawable/dashbg"
         android:orientation="horizontal"
         android:padding="16dp">
 
@@ -35,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="User Name"
+                android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -43,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="useremail@example.com"
+                android:textColor="@color/light_gray"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>
@@ -50,6 +53,7 @@
 
 
     <!-- Privacy section -->
+
     <TextView
         android:id="@+id/privacy_section"
         android:layout_width="match_parent"
@@ -57,10 +61,12 @@
         android:layout_below="@id/profile_section"
         android:layout_marginTop="20dp"
         android:background="@color/white"
-        android:textColor="@color/dark_blue"
         android:padding="16dp"
         android:paddingStart="40dp"
         android:text="Account Settings"
+        android:drawableStart="@drawable/ic_baseline_settings_24"
+        android:drawablePadding="10dp"
+        android:textColor="@color/dark_blue"
         android:textSize="20sp"
         android:textStyle="bold" />
 

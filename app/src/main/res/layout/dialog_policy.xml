@@ -30,13 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="1. We take your privacy seriously and want you to know how we use and protect your personal information. When you use our app, we collect your location data and other personal information such as your name, email address, and phone number. We use this information to enable you to share your location with others and to improve our services.\n
-
-2. To protect your privacy, we disassociate your location data from your other personal data 48 hours after you share your location with others. We then use the disassociated location data in aggregate form to improve our services.\n
-
-3. We may share your location information with third parties chosen by you and with third-party technology providers that help power IcleaNix Inc. We will never share your personal information with any third party without your explicit consent.\n
-
-4. By using our app, you agree to our Privacy Policy and our Terms of Use. If you have any questions or concerns about our privacy practices, please contact us at privacy@icleanix.com." />
+        android:text="1. We take your privacy seriously and want you to know how we use and protect your personal information. When you use our app, we collect your location data and other personal information such as your name, email address, and phone number. We use this information to enable you to share your location with others and to improve our services.\n2. To protect your privacy, we disassociate your location data from your other personal data 48 hours after you share your location with others. We then use the disassociated location data in aggregate form to improve our services.\n3. We may share your location information with third parties chosen by you and with third-party technology providers that help power IcleaNix Inc. We will never share your personal information with any third party without your explicit consent.\n4. By using our app, you agree to our Privacy Policy and our Terms of Use. If you have any questions or concerns about our privacy practices, please contact us at privacy@icleanix.com." />
 
     <TextView
         android:id="@+id/DialogPolicyLinks"
@@ -55,8 +49,8 @@
 
     <Button
         android:id="@+id/btn_agree"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
         android:layout_gravity="end"
         android:layout_marginTop="12dp"
         android:text="I Agree"

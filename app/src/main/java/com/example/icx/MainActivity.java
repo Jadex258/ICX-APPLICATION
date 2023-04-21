@@ -4,9 +4,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.ContentValues;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.TextPaint;
@@ -31,6 +35,11 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+
 
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
@@ -50,28 +59,62 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 
+
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.navigation.NavigationView;
 import com.example.icx.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
+    private MyDatabaseHelper dbHelper;
+    SQLiteDatabase db;
     ActivityMainBinding binding;
     LoginFragment loginFragment;
     RegisterFragment registerFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        sharedPreferences = getSharedPreferences("my_prefs", MODE_PRIVATE);
 
-        // Show dialog if first time launching the app
-        if (sharedPreferences.getBoolean("is_first_launch", true)) {
-            showPolicyDialog();
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+
+        // Create a new instance of DatabaseHelper
+        MyDatabaseHelper dbHelper = new MyDatabaseHelper(this);
+
+// Get a writable database
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+// Create a ContentValues object to store the values to be inserted
+        ContentValues values = new ContentValues();
+        values.put("username", "jade");
+        values.put("password", "jademicha");
+        values.put("last_login", "2023-04-20 12:00:00");
+        values.put("is_superuser", false);
+        values.put("last_name", "Smith");
+        values.put("email", "jade@example.com");
+        values.put("is_staff", false);
+        values.put("is_active", true);
+        values.put("date_joined", "2023-04-19 12:00:00");
+        values.put("first_name", "Jade");
+
+
+// Insert the new user into the database
+        long newRowId = db.insert("auth_user", null, values);
+
+// Check if the insertion was successful
+        if (newRowId == -1) {
+            Toast.makeText(this, "Error inserting user into database", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "User inserted into database with ID: " + newRowId, Toast.LENGTH_SHORT).show();
         }
-        // Initialize LoginFragment
+
+
+        Cursor cursor = db.rawQuery("SELECT * FROM auth_user", null);
+
         loginFragment = new LoginFragment();
         registerFragment = new RegisterFragment();
+
 
         replaceFragment(new DashboardFragment());
         binding.bottomNavigationView.setBackground(null);

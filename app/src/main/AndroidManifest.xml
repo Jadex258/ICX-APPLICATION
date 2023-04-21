@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ICX">
         <activity
+            android:name=".DialogPostServices"
+            android:exported="true" />
+        <activity
             android:name=".TermsConditionActivity"
             android:exported="true" />
         <activity

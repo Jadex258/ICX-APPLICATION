@@ -15,11 +15,13 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/circular_grey_bordersolid.xml" value="0.1962962962962963" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/circularborderdark.xml" value="0.24351851851851852" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/circularbordersolid.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/close_dark.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/dialog_bkg.xml" value="0.2574074074074074" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_arrow_down.xml" value="0.2361111111111111" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_arrow_up.xml" value="0.2361111111111111" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_cloud_upload_24.xml" value="0.22314814814814815" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.26205128205128203" />
@@ -43,6 +45,7 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_account_info.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_account_info_fragment.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_dialog_post_services.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_forgot_password.xml" value="0.2" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/ICX/app/src/main/res/layout/activity_main.xml" value="0.264" />

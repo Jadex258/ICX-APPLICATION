@@ -1,5 +1,6 @@
 package com.example.icx;
 
+import androidx.activity.OnBackPressedCallback;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -68,6 +69,16 @@ public class UserMainActivity extends AppCompatActivity {
         });
 
     }
+
+
+    @Override
+    public void onBackPressed() {
+        // Clear the activity's history stack to disable the back button
+        Intent intent = new Intent(this, UserMainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
+    }
+
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
